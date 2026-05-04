@@ -1,0 +1,65 @@
+/* 
+
+Padding & Margin: 
+
+<Margin> simboliza a parte externa de um conteúdo, ou seja, 
+ela manipula o espaçamento externo de um elemento.
+
+<Padding> O padding simboliza a margin interna de um elemento, ou seja,
+ele da um espaçamento interno nos elementos, podendo deixar eles menores, mais alinhados e etc.
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1A2A5C;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: gray;
+    font-weight: bold;
+}
+
+.cabecalho {
+    background-color: beige;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-bottom: 30px;
+}
+
+.logo {
+   font-weight: bold;
+   font-size: 1.3rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
